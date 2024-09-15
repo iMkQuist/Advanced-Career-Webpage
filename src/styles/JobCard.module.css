@@ -1,0 +1,134 @@
+/* JobCard.module.css */
+
+.jobCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    background-color: white;
+    transition: box-shadow 0.2s;
+}
+
+.jobCard:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.companyLogo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.jobInfo {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.jobTitle {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.company {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.location {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.full-time {
+    background-color: #0070f3;
+    color: white;
+}
+
+.part-time {
+    background-color: #ffb600;
+    color: white;
+}
+
+.remote {
+    background-color: #28a745;
+    color: white;
+}
+
+.contract {
+    background-color: #ff4444;
+    color: white;
+}
+
+.salary {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.postedDate {
+    font-size: 0.875rem;
+    color: #888;
+    margin-top: 10px;
+}
+
+.viewDetails {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.viewDetails:hover {
+    background-color: #005bb5;
+}
+
+.bookmarkButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #0070f3;
+}
+
+.bookmarkButton:hover {
+    color: #005bb5;
+}
+
+@media (max-width: 768px) {
+    .jobCard {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .companyLogo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .jobInfo {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .viewDetails {
+        margin-top: 10px;
+        padding: 8px 16px;
+    }
+}

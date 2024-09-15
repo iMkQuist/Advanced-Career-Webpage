@@ -1,0 +1,50 @@
+/* styles/AdminPanel.module.css */
+
+.admin-panel {
+    padding: 20px;
+}
+
+.job-item {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-item h3 {
+    margin: 0;
+}
+
+.job-item p {
+    margin: 0;
+}
+
+.job-actions button {
+    margin-right: 10px;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f9;
+    cursor: pointer;
+}
+
+.pagination-controls button.active {
+    background-color: #0070f3;
+    color: white;
+}
+
+.pagination-controls button:hover {
+    background-color: #005bb5;
+    color: white;
+}

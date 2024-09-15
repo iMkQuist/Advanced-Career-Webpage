@@ -1,0 +1,112 @@
+/* Footer.module.css */
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.column h3 {
+    margin-bottom: 15px;
+}
+
+.column p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 10px;
+}
+
+.column ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.column ul li a:hover {
+    text-decoration: underline;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 15px;
+}
+
+.socialIcons a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.newsletterForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.subscribeButton {
+    background-color: #0070f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribeButton:hover {
+    background-color: #005bb5;
+}
+
+.successMessage {
+    color: green;
+}
+
+.footerBottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 0.875rem;
+}
+
+.backToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0070f3;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.backToTopButton:hover {
+    background-color: #005bb5;
+}

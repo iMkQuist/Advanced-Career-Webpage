@@ -1,0 +1,142 @@
+/* JobDetail.module.css */
+
+.jobDetail {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.companyInfo {
+    margin-bottom: 20px;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.location {
+    color: #555;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.full-time {
+    background-color: #0070f3;
+    color: white;
+}
+
+.part-time {
+    background-color: #ffb600;
+    color: white;
+}
+
+.remote {
+    background-color: #28a745;
+    color: white;
+}
+
+.contract {
+    background-color: #ff4444;
+    color: white;
+}
+
+.bookmarkButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #0070f3;
+}
+
+.bookmarkButton:hover {
+    color: #005bb5;
+}
+
+.jobDescription,
+.qualifications,
+.benefits,
+.salary,
+.companyDetails {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.jobDates {
+    margin-bottom: 20px;
+}
+
+.applyButtonContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.applyButton {
+    background-color: #0070f3;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.2s;
+}
+
+.applyButton:hover {
+    background-color: #005bb5;
+}
+
+.socialShare {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.shareButton {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #0070f3;
+    cursor: pointer;
+}
+
+.shareButton:hover {
+    color: #005bb5;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .badge {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .applyButton {
+        width: 100%;
+    }
+}
